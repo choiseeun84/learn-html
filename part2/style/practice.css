@@ -1,0 +1,28 @@
+
+
+h1{
+    background-color: #ff4545;
+}
+.class_box {
+    background-color: #349eda;
+}
+
+#id_box {
+    background-color: #54c741;
+}
+
+div.color_box {
+    background-color: #c53cc3;
+}
+
+div.color_box a {
+    background-color: #e7d93f;
+}
+
+ul#color_box {
+    background-color: #1fd2cd;
+}
+
+ul#color_box li.bg {
+    background-color: #ff871c; 
+}
