@@ -1,0 +1,61 @@
+
+
+.list {
+    background-color: hotpink;
+}
+
+
+/* list 안에 있는 li들에게만 */
+/* 한칸 띄어쓰기 : ~안에있는 */
+.list > li {
+    background-color: dodgerblue;
+}
+
+
+/* 함께 가지고있는 */
+
+
+/* list 안에 있는 menu만 */
+li.menu {
+
+}
+
+
+/* list안에 있는 친자식 menu에게만 */
+.list > .menu {
+    background-color: orange;
+}
+
+/* 세번째 자식 */
+/* .list > li:nth-child(3) { */
+/* 마지막 자식 */
+/* .list > li:last-child { */
+/* 첫번째 자식 */
+/* .list > li:first-child { */
+/* 홀수자식 */
+/* .list > li:nth-child(odd) { */
+/* 짝수자식 */
+/* .list > li:nth-child(even) { */
+/* 2의 배수 자식 */
+.list > li:nth-child(2n) {
+    background-color: greenyellow;
+}
+
+
+/* CSS nesting */
+
+.list {
+
+    /* &는 나라는 의미 */
+    &:hover{
+        background-color: red;
+    }
+
+    > li:nth-child(3){
+
+    }
+
+    > .menu{
+
+    }
+}
